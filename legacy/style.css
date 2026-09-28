@@ -1,0 +1,64 @@
+#admin #container { 
+	box-shadow: 0 2px 3px rgba(0,0,0,0.1); 
+	border: 5px solid #6694e3; 
+	margin: 30px auto; 
+	min-height: 200px!important; 
+	padding: 0px; 
+	width: 90%; 
+}
+
+#heading .box { 
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+	border-bottom: 1px solid #ddd;
+	background: #f9f9f9;
+	padding: 1em;
+  margin-bottom: 1em;
+}
+
+#admin a:focus, 
+#admin a:hover 			{ color: #95afd8; }
+#admin a, a.u 			{ color: #2a5db0; text-decoration: none }
+a.u:focus, a.u:hover{ color: #95afd8; }
+
+#admin table 				{ margin:0; text-transform:uppercase; width:100% }
+#admin table h2 		{ text-transform:none!important }
+#admin th						{ background-color: #e0ecff; border-bottom: 1px solid #cad4e6; color: #555; font-size: 12px!important; height: 25px; padding: 0; text-transform:none!important }
+#admin td 					{ border-bottom: 1px solid #d6d6d6; padding: 1px 0!important }
+#admin td.noborder	{ border-bottom-width: 0 }
+th.firstcol					{ padding-left: 5px!important }
+td.highlight				{ background-color: #fff!important;/*fcc*/ font-weight: 700 }
+
+#admin label 				{ display:block; float:left; width:110px; text-align:left }
+#admin label.long 	{ display:block; float:left; width:140px!important; text-align:left }
+#admin .search			{ width:300px }
+#admin .checkboxfix { top: 0.25em!important }
+#admin input[type="checkbox"], 
+#admin input[type="radio"], 
+#admin input.checkbox, 
+#admin input.radio 	{ top: 0 }
+
+.border-top 		{ border-top: 5px solid #6694e3 }
+.border-bottom	{ border-bottom: 5px solid #6694e3 }
+.border-right 	{ border-right: 5px solid #6694e3 }
+.border-left 		{ border-left: 5px solid #6694e3 }
+
+.state					{ text-transform: uppercase }
+.case						{ text-transform: none }
+
+#admin .small 	{ font-size: 10px }
+#admin .unsmall { font-size: 12px!important }
+
+/*	Gmail Blue	--	Light #e0ecff	|	Medium #b2c9f1	|	Dark #6694e3	*/
+
+/* magadd.php CSS */
+.row 		{margin-bottom:10px}
+.row-a 	{background-color:#fdf7f3}
+.row-b 	{background-color:#f3f9fd}
+.sqlresults 		{margin:3em 0;font-family:"Courier New", Courier, monospace}
+.sqlresults td 	{border-bottom:1px solid #eee}
+
+#magadd form p 		{ margin-bottom: .3em!important; }
+#magadd label 		{ color: #191919; font-size: .8em; text-transform: uppercase; }
+#magadd .text 		{ width: 250px!important; }
+#magadd textarea	{ width: 98%!important; }
+
